@@ -1,62 +1,67 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magicians
 
-> Description the project.
+> This project is built to show off my abilities with HTML, CSS, JavaScript, and to learn React, making use of technologies such as JSX, React components, build a React application, etc...
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS, JavaScript
+- React
+- Webpack, linters
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+[Not available yet](https://github.com/Javivy/math-magicians)
 
 
 ## Getting Started
+To get a local copy up and running follow these simple example steps. (NPM)
+1. Open your terminal
+2. Navigate to the directory where you want your project cloned
+3. Clone the project using `git clone` or just copy the command below:
+```  
+   git clone https://github.com/Javivy/math-magicians.git
+```   
+4. Open the project with your IDE. I use [Visual Studio Code](https://code.visualstudio.com/download)
+5. Run `npm install` to get the dependencies
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+   not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+6. Run webpack:
+- Production:
+   ``` 
+      npm run build
+   ```  
+- Development:
+  ```
+   npm run start
+  ```
+  not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
 ### Prerequisites
+- Having an IDE .
+- Having Git installed and configured.
 
 ### Setup
+- Clone the repository
+- Open the folder with your IDE
+- Get the dependencies with `npm install` 
+  - not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
-### Install
+## Author
 
-### Usage
+👤 **Javivy**
 
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Javivy](https://github.com/Javivy)
+- LinkedIn: [Javier Vargas](https://www.linkedin.com/in/javier-alejandro-vargas-ortega)
+- Twitter [@Javivy_2803](https://twitter.com/Javivy_2803)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Javivy/math-magicians/issues).
 
 ## Show your support
 
@@ -64,12 +69,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
