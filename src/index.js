@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import ReactDOM from 'react-dom/client.js';
+import ReactDOM from '../node_modules/react-dom/client.js';
 import './index.css';
 import App from './App.js';
 import reportWebVitals from './reportWebVitals.js';
