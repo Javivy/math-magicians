@@ -29,7 +29,7 @@ class Calculator extends React.Component {
           <button className='calc-button' onClick={this.clickHandler}>7</button>
           <button className='calc-button' onClick={this.clickHandler}>8</button>
           <button className='calc-button' onClick={this.clickHandler}>9</button>
-          <button className='calc-button orange-btn' onClick={this.clickHandler}>X</button>
+          <button className='calc-button orange-btn' onClick={this.clickHandler}>x</button>
           <button className='calc-button' onClick={this.clickHandler}>4</button>
           <button className='calc-button' onClick={this.clickHandler}>5</button>
           <button className='calc-button' onClick={this.clickHandler}>6</button>
