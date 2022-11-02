@@ -19,7 +19,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(to right,#04005e, #ff2079);
+  background: linear-gradient(to right, #04005e, #ff2079);
   border-bottom: 2px solid #fff;
 }
 
