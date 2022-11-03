@@ -168,6 +168,60 @@ body {
 }
 
 @media screen and (max-width: 570px) {
+  /** NAVBAR */
+  .navbar-links-desktop {
+    display: none;
+  }
+
+  .navbar-mobile {
+    display: block;
+  }
+
+  .navbar-links-mobile {
+    list-style-type: none;
+    display: none;
+  }
+
+  .navbar-links-mobile > li {
+    margin: 1rem 0;
+  }
+
+  .link-item {
+    font-size: 1.5em;
+  }
+
+  .visible {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background: rgba(163, 6, 140, 0.67);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(163, 6, 140, 0.38);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bars-icon {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .close-icon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  /** CALCULATOR */
   .calculator-component {
     display: flex;
     flex-direction: column;
@@ -175,5 +229,25 @@ body {
 
   .calculator-component > h2 {
     margin: 2rem 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
   }
 }
