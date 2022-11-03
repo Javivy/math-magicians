@@ -40,6 +40,10 @@ body {
   background: #f30061;
 }
 
+.navbar-mobile {
+  display: none;
+}
+
 /** HOME */
 
 .home-container {
