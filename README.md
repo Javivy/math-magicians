@@ -13,7 +13,7 @@
 
 ## Live Demo 
 
-[Not available yet](https://github.com/Javivy/math-magicians)
+[Math Magicians Live Demo](https://math-magicians-javivy.netlify.app/)
 
 
 ## Getting Started
