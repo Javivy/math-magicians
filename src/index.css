@@ -166,3 +166,14 @@ body {
   text-align: center;
   margin-top: 2rem;
 }
+
+@media screen and (max-width: 570px) {
+  .calculator-component {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .calculator-component > h2 {
+    margin: 2rem 0;
+  }
+}
