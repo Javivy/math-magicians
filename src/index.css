@@ -195,7 +195,6 @@ body {
   }
 
   .visible {
-    display: block;
     position: fixed;
     top: 0;
     width: 100%;
@@ -224,7 +223,7 @@ body {
     font-size: 3rem;
     color: #fff;
   }
-  
+
   /** CALCULATOR */
   .calculator-component {
     display: flex;
