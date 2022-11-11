@@ -123,6 +123,7 @@ body {
   font-weight: bold;
   border: 1px solid #ff2079;
   outline: none;
+  transition: background 0.2s;
 }
 
 .orange-btn {
@@ -133,7 +134,15 @@ body {
   background: #f30061;
 }
 
+.calc-button:active {
+  background: #f30061;
+}
+
 .orange-btn:hover {
+  background: #5e102f;
+}
+
+.orange-btn:active {
   background: #5e102f;
 }
 
